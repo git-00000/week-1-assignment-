@@ -1,11 +1,16 @@
-#  SECOND  LARGEST ELEMENT IN ARRAY
-
-def find_largest(arr):
+def find_largest_element(arr):
+    
     max_element = arr[0]
-    for num in arr[1:]:
+    
+    for num in arr:
         if num > max_element:
             max_element = num
+    
     return max_element
 
 
-print("Largest:", find_largest([1, 8, 7, 56, 90])) 
+arr1 = [1, 8, 7, 56, 90]
+
+print("Output:", find_largest_element(arr1))  
+
+
