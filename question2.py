@@ -1,4 +1,4 @@
-def find_largest_element(arr):
+def largest_element(arr):
     
     max_element = arr[0]
     
@@ -11,6 +11,6 @@ def find_largest_element(arr):
 
 arr1 = [1, 8, 7, 56, 90]
 
-print("Output:", find_largest_element(arr1))  
+print("Output:", largest_element(arr1))  
 
 
